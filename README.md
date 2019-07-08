@@ -23,6 +23,9 @@ As for github, we will learn about team workflows such as trunk based and featur
 
 ## Background
 
+It is recommended that workshop attends have some familarity with the commandline and git before attending. 
+
+Fully completeling the exercises in the [`Introduction to commandline, git and github`](https://github.com/ndanielsen/intro-cli-git-github) should be sufficient preparation.
 
 
 

@@ -64,10 +64,12 @@ You can also add an ENV before you run a script.
 Set these ENVs in your terminal and then print them back.
 
 HACK4LA with value of "rocks"
+
 LOS_ANGELES with value of "Has the best icecream!"
 
 
-BONUS
+#### BONUS EXERCISE
+
 Modify the `shoutout.sh` to say something nice about someone who you admire using one or more ENVs.
 
 

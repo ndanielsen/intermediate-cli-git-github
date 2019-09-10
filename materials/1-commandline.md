@@ -141,11 +141,28 @@ Permissions:
     0, ---, none
 
 
-
 ## Exercise
 
+1) Create a script to create a `my_blog` project. The script should:
+
+Create a folder called `my_blog`
+
+Inside of that folder:
+- Create a README.md file
+- Create an index.html file
+- Create a `posts/` folder
+- Inside of `posts/` create a file  `civic_hacking_is_cool.txt`
+- Inside of `posts/` create a file  `hack4la_dtla_is_great.txt`
+- Inside of `posts/` create a file  `los_angeles_best_icecream.txt`
 
 
+Bonus:
+
+Create the README.md with some content aready inside of it.
+
+example:
+
+`echo 'Hello, world.' > foo.txt`
 
 
 

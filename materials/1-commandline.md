@@ -1,9 +1,7 @@
-# Comamndline Refresher
+# Commandline and Your Environment
 
-- Create files and folders
-- Navigate Around
-- Move a few around
-- Delete them all
+
+
 
 
 # Creating Files and Manipulating Them

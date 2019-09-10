@@ -1,22 +1,17 @@
 
 # Git Intermediate - Branching 
 
-Let's dive into some more advanced topics on using git.
+Now we're going to dive into some workflow activites with git that including branching and merging.
 
-These areas will include:
-
-- branch
-- merge
 
 At this point, you should have forked and cloned to your local machine the github respository [Nicecream Icecream - Los Angeles's Finest Hipster Icecream Startup](https://github.com/ndanielsen/nicecream.github.io)
 
 
-### Protip
+**Protip**
 
 After the workshop, install [git-completion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion) to make using git much easier.
 
 It requires modifying your `~/.bash_profile` or equivalent.
-
 
 
 ## Git Branches

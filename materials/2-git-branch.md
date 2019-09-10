@@ -21,12 +21,10 @@ A branch represents a different line or work that is separated from the `main` o
 In git, we use branches to work in parallel and then merge our code together.
 
 
-![](images/git-branch.png)
-
-[Atlassian Image Credit](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+![](images/git-branch.png)[Atlassian Image Credit](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 
-Check out your current branch for your `nicecream.github.io` project.
+Check out the current branch for your `nicecream.github.io` project.
 
 ```
 
@@ -39,11 +37,9 @@ You should only have the master branch.
 
 ### Git workflows with branches
 
-In most project management systems, it is typical to pick up a story or card to work on.
+In most project management systems, it is typical to pick up a story or card to work on. In this case, we have a [card waiting](https://github.com/ndanielsen/nicecream.github.io/issues/1) for us.
 
-In this case, we have a [card waiting](https://github.com/ndanielsen/nicecream.github.io/issues/1) for us.
-
-We will utilize a feature branch to work on this item in parallel.
+We will utilize a feature branch to work on this item in parallel. A feature branch is a change or body of work related to a single assignment. 
 
 Read more about [gitflows here.](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 

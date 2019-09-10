@@ -20,6 +20,12 @@ A branch represents a different line or work that is separated from the `main` o
 
 In git, we use branches to work in parallel and then merge our code together.
 
+
+![](images/git-branch.png)
+
+[Atlassian Image Credit](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+
 Check out your current branch for your `nicecream.github.io` project.
 
 ```

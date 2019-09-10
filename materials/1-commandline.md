@@ -106,7 +106,7 @@ We're not going to configure anything in the `bash_profile` today. It is risky t
 
 Likely, editing it will require the use of `sudo`. 
 
-Check out the (`4-Command-Line-Advanced.md`)[https://github.com/ndanielsen/intro-cli-git-github/blob/master/materials/4-Command-Line-Advanced.md] for details on the use of `sudo`.
+Check out the [`4-Command-Line-Advanced.md`](https://github.com/ndanielsen/intro-cli-git-github/blob/master/materials/4-Command-Line-Advanced.md) for details on the use of `sudo`.
 
 
 ## Bash Scripts

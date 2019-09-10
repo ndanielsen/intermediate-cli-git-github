@@ -174,8 +174,12 @@ $ chmod 777 scripts/hello_world.py
 
 ```
 
+The numbers after `chmod` correspond to permissions for the user, group and everybody else.
 
-The first 7 sets the permissions for the user, the second 7 sets the permissions for the group, and the third 7 sets the permissions for everybody else.
+For example about:
+- The first 7 sets the permissions for the user, 
+- The second 7 sets the permissions for the group
+- The third 7 sets the permissions for everybody else.
 
 ```
 Permissions:
@@ -191,7 +195,7 @@ Permissions:
 
 ### Exercise
 
-Create a script to create a `my_blog` project. The script should:
+Create a script with name of `create_blog.sh` to create a `my_blog` project. The script should:
 
 Create a folder called `my_blog`
 

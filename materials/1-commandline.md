@@ -102,11 +102,11 @@ $ cat ~/.bash_profile
 ```
 
 
-We're not going to configure anything in it today. It is risky to do in a workshop setting.
+We're not going to configure anything in the `bash_profile` today. It is risky to do in a workshop setting.
 
-Likely, editing it will require the use of `sudo`. Check out the (`4-Command-Line-Advanced.md`)[https://github.com/ndanielsen/intro-cli-git-github/blob/master/materials/4-Command-Line-Advanced.md] for details on the use of `sudo`.
+Likely, editing it will require the use of `sudo`. 
 
-Please don't make changes during the workshop as I likely won't have time to fix your computer if you mess it up.
+Check out the (`4-Command-Line-Advanced.md`)[https://github.com/ndanielsen/intro-cli-git-github/blob/master/materials/4-Command-Line-Advanced.md] for details on the use of `sudo`.
 
 
 ## Bash Scripts
@@ -115,7 +115,7 @@ Bash scripts can be used for various purposes, such as executing a shell command
 
 ### Shebang
 
-The first line on a bash script to tell the computer what interpreter (computer language / runtime) should execute the script with telling it which one.
+The first line on a bash script to tell the computer what interpreter (computer language / runtime) should execute the script.
 
 Look in `scripts/` for working examples.
 

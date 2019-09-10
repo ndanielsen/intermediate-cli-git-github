@@ -147,7 +147,7 @@ echo "Hello class!"
 
 ### Python (programming language / runtime)
 
-You might not have python3 installed on your computer.
+If you don't have python3 installed on your computer, it will not work.
 
 script: `./scripts/hello_world.py`
 
@@ -211,7 +211,7 @@ Inside of that folder:
 
 Should be runnable via `./create_blog.sh` and also `bash create_blog.sh`
 
-Extra Credit:
+**Extra Credit**
 
 Create the README.md with some content aready inside of it.
 

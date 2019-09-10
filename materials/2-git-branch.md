@@ -41,7 +41,7 @@ In most project management systems, it is typical to pick up a story or card to 
 
 We will utilize a feature branch to work on this item in parallel. A feature branch is a change or body of work related to a single assignment. 
 
-Read more about [gitflows here.](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+Read more about [gitflow and branching strategies here.](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 
 ### Github Issue
@@ -75,13 +75,13 @@ Let's now move into that branch and add in our tagline.
 ```
 
 #### Exercise:
-1) Open up the `index.html` in `nicecream.github.io` and add your flavor that you came up with earlier.
+1) Open up the `index.html` in code editor and add your flavor that you came up with earlier.
 2) Git commit and push it up to your forked copy of the respository.
 2) Go to your forked github `nicecream.github.io` repo to make sure that it made it in.
 3) On github, make a pull request into your `master` branch and then merge it in.
 
 
-#### Protip: 
+**Protip:** 
 You can create and checkout a branch in one command.
 
 ```

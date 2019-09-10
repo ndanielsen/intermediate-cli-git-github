@@ -68,7 +68,7 @@ You can also add an ENV before you run a script.
 
 ```
 
-$ FRIEND_NAME="Bonnie Wolfe" bash script/shoutout.sh
+$ FRIEND_NAME="Bonnie Wolfe" bash scripts/shoutout.sh
 
 ```
 
@@ -86,6 +86,8 @@ Set these ENVs in your terminal and then print them back.
 #### BONUS EXERCISE:
 
 Modify the `shoutout.sh` to say something nice about someone who you admire using one or more ENVs.
+
+Can you run it?
 
 
 ### Setting Envs - Permament
@@ -113,6 +115,15 @@ Check out [`4-Command-Line-Advanced.md`](https://github.com/ndanielsen/intro-cli
 
 Bash scripts can be used for various purposes, such as executing a shell command, running multiple commands together, customizing administrative tasks, performing task automation etc.
 
+### Running a simple script
+
+We can run a simple bash script like this. 
+
+```
+bash scripts/hello_class.sh
+
+```
+
 ### Shebang
 
 The first line on a bash script to tell the computer what interpreter (computer language / runtime) should execute the script.
@@ -123,47 +134,45 @@ Examples:
 
 ### Bash (terminal)
 
-script:
-`./scripts/hello_class.sh`
+script: `./scripts/hello_class.sh`
 
 file contents:
 ```
 
 #!/bin/bash
+
 echo "Hello class!"
 
 ```
 
-script:
-`./scripts/hello_world.py`
-
 ### Python (programming language / runtime)
+
+You might not have python3 installed on your computer.
+
+script: `./scripts/hello_world.py`
 
 ```
 
 #!/usr/bin/env python3
 
-echo "Hello world!"
+print('hello world!')
 
 ```
 
-
-### Exercise
-
-- Try to run these scripts on your computer.
-- Bonus can you figure out the file permissions on those files?
-
-
-## Make script executable (runnable) by your computer
+## Make script executable by your computer
 
 We can only run files on our computers that have the correct permissions. 
 
-`chmod` modifies the permissions of the file specified by file name to the permissions specified by permissions.
+`chmod` modifies the permissions of the file specified by the file name to the permissions specified by permissions.
 
-To make these two scripts executable by everyone, we need to run:
+To make these two scripts executable by everyone, I had to run:
+
+```
 
 > chmod 777 scripts/hello_class.sh
 > chmod 777 scripts/hello_world.py
+
+```
 
 
 The first 7 sets the permissions for the user, the second 7 sets the permissions for the group, and the third 7 sets the permissions for everybody else.

@@ -18,23 +18,31 @@ ProTip - Checkout this reading from the Twelve Factor about on [configuration](h
 
 Let's find the home directory on our machine:
 
->
->$ echo $HOME
->
+```
+
+$ echo $HOME
+
+```
 
 This is the user's home directory. Variables have a `$` in front of them.
 
 ### Let's Look at All of them
 
->
->$ echo env
->
+```
+
+$ echo env
+
+```
+
 
 These are all of the ENVs for your user. It is a lot of information. We can scroll through it slowly using the pipe operator and `less`. 
 
->
->$ echo env | less
->
+```
+
+$ echo env | less
+
+```
+
 
 Hint: You can press the `q` button to escape.
 
@@ -45,19 +53,25 @@ Sometimes it is helpful to temporary setting ENVs for a program that is running 
 
 We can temporarily set them for user in our programs with `export` before them in a KEY=VALUE format.
 
->
->$ export MY_NAME=Nathan
->$ export FULL_NAME="Nathan Danielsen"
->
->$ echo $MY_NAME
->$ echo $FULL_NAME
->
+```
+
+$ export MY_NAME=Nathan
+$ export FULL_NAME="Nathan Danielsen"
+
+$ echo $MY_NAME
+$ echo $FULL_NAME
+
+```
+
 
 You can also add an ENV before you run a script.
 
->
->$ FRIEND_NAME="Bonnie Wolfe" bash script/shoutout.sh
->
+```
+
+$ FRIEND_NAME="Bonnie Wolfe" bash script/shoutout.sh
+
+```
+
 
 #### EXERCISES:
 
@@ -68,7 +82,7 @@ HACK4LA with value of "rocks"
 LOS_ANGELES with value of "Has the best icecream!"
 
 
-#### BONUS EXERCISE
+#### BONUS EXERCISE:
 
 Modify the `shoutout.sh` to say something nice about someone who you admire using one or more ENVs.
 
@@ -95,7 +109,7 @@ Please don't make changes during the workshop as I likely won't have time to fix
 
 Bash scripts can be used for various purposes, such as executing a shell command, running multiple commands together, customizing administrative tasks, performing task automation etc.
 
-## Shebang
+### Shebang
 
 The first line on a bash script to tell the computer what interpreter (computer language / runtime) should execute the script with telling it which one.
 

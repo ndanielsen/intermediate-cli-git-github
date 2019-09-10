@@ -120,7 +120,7 @@ Bash scripts can be used for various purposes, such as executing a shell command
 We can run a simple bash script like this. 
 
 ```
-bash scripts/hello_class.sh
+$ bash scripts/hello_class.sh
 
 ```
 
@@ -169,15 +169,15 @@ To make these two scripts executable by everyone, I had to run:
 
 ```
 
-> chmod 777 scripts/hello_class.sh
-> chmod 777 scripts/hello_world.py
+$ chmod 777 scripts/hello_class.sh
+$ chmod 777 scripts/hello_world.py
 
 ```
 
 
 The first 7 sets the permissions for the user, the second 7 sets the permissions for the group, and the third 7 sets the permissions for everybody else.
 
-
+```
 Permissions:
     7, rwx, read, write, and execute
     6, rw-, read and write
@@ -187,7 +187,7 @@ Permissions:
     2, -w-, write only
     1, --x, execute only
     0, ---, none
-
+```
 
 ### Exercise
 

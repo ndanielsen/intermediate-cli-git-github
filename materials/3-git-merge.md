@@ -105,5 +105,5 @@ ask your question to a TA.
 Resolve the conflicts from the merge.
 Ask any questions that you have.
 
-
+Please fill out the post-workshop survey: https://tinyurl.com/la-tech-workshop
 

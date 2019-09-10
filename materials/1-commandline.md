@@ -1,7 +1,7 @@
 # Commandline and Your Environment
 
-For advanced commandline documentation and exercises please checkout (this page)[
-https://github.com/ndanielsen/intro-cli-git-github/blob/master/materials/4-Command-Line-Advanced.md].
+For advanced commandline documentation and exercises please checkout [this page](
+https://github.com/ndanielsen/intro-cli-git-github/blob/master/materials/4-Command-Line-Advanced.md).
 
 
 

@@ -91,7 +91,7 @@ Examples:
 ### Bash (terminal)
 
 script:
-./scripts/hello_class.sh
+`./scripts/hello_class.sh`
 
 file contents:
 > #!/bin/bash
@@ -100,7 +100,7 @@ file contents:
 
 
 script:
-./scripts/hello_world.py
+`./scripts/hello_world.py`
 
 ### Python (programming language / runtime)
 
@@ -141,9 +141,9 @@ Permissions:
     0, ---, none
 
 
-## Exercise
+### Exercise
 
-1) Create a script to create a `my_blog` project. The script should:
+Create a script to create a `my_blog` project. The script should:
 
 Create a folder called `my_blog`
 
@@ -162,7 +162,7 @@ Create the README.md with some content aready inside of it.
 
 example:
 
-`echo 'Hello, world.' > foo.txt`
+`echo 'Hello, world.' > Newfile.txt`
 
 
 

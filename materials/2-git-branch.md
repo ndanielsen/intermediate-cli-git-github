@@ -46,14 +46,19 @@ Read more about [gitflows here.](https://www.atlassian.com/git/tutorials/compari
 
 ### Github Issue
 
-Let's take a look at it together. 
+Let's take a look at the [card](https://github.com/ndanielsen/nicecream.github.io/issues/1) together. 
 
-Let's compare the `index.html` that is in the `master` branch. We can open up the `index.html` in our browser to see it.
+In doing this, we should compare the `index.html` is our current `master` branch with the ticket. We can open up the `index.html` in our browser to see it.
+
+
+### Exercise
+
+Compare the image in the [card](https://github.com/ndanielsen/nicecream.github.io/issues/1) with the current `index.html` in the master branch.
 
 
 ### Creating a branch
 
-With an assignment to workon, let's create a branch to add the tagline onto our page.
+With an assignment to work on, let's create a branch to add the tagline onto our page.
 
 ```
  $ git branch 1-add-tag-line

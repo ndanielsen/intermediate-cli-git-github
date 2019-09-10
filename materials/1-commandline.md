@@ -77,9 +77,10 @@ $ FRIEND_NAME="Bonnie Wolfe" bash script/shoutout.sh
 
 Set these ENVs in your terminal and then print them back.
 
-HACK4LA with value of "rocks"
+1) `HACK4LA` with value of "rocks"
 
-LOS_ANGELES with value of "Has the best icecream!"
+
+2) `LOS_ANGELES` with value of "Has the best icecream!"
 
 
 #### BONUS EXERCISE:
@@ -94,9 +95,12 @@ You can set your own persistent environment variables in your shell (terminal) c
 
 This is how you can view it on a mac:
 
->
->$ cat ~/.bash_profile
->
+```
+
+$ cat ~/.bash_profile
+
+```
+
 
 We're not going to configure anything in it today. It is risky to do in a workshop setting.
 

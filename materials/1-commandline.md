@@ -215,12 +215,12 @@ Should be runnable via `./create_blog.sh` and also `bash create_blog.sh`
 
 Create the README.md with some content aready inside of it.
 
-example:
-
-`echo 'Hello, world.' > Newfile.txt`
+ie: `echo 'Hello, world.' > Newfile.txt`
 
 Hint: You can navigate or run `cd` inside of a script.
 
 
 
+### Other Help and Hints
 
+If you are struggling, please checkout the materials in [`Introduction to commandline, git and github`](https://github.com/ndanielsen/intro-cli-git-github) 

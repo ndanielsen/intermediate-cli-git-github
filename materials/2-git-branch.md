@@ -9,7 +9,7 @@ At this point, you should have forked and cloned to your local machine the githu
 
 **Protip**
 
-After the workshop, install [git-completion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion) to make using git much easier.
+After the workshop, install [git-completion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion) to make using git much easier by enabling autocompletion.
 
 It requires modifying your `~/.bash_profile` or equivalent.
 

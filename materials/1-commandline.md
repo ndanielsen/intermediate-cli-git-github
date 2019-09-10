@@ -11,51 +11,64 @@ Environment variables (ENVs) contain information about your login session, store
 
 ENVs are helpful because they allow you to separate code/ logic from configuration. 
 
-Checkout this chapter reading from the Twelve Factor about on [configuration](https://12factor.net/config).
+ProTip - Checkout this reading from the Twelve Factor about on [configuration](https://12factor.net/config).
 
 
 ### Accessing Current ENVs
 
 Let's find the home directory on our machine:
 
+>
 >$ echo $HOME
+>
 
-This is the user's home directory. Variables have the $ in front of them.
+This is the user's home directory. Variables have a `$` in front of them.
 
 ### Let's Look at All of them
 
+>
 >$ echo env
+>
 
+These are all of the ENVs for your user. It is a lot of information. We can scroll through it slowly using the pipe operator and `less`. 
 
-That's alot of information. Let's scroll through it slowly using the pipe operator and `less`. 
-
+>
 >$ echo env | less
-
+>
 
 Hint: You can press the `q` button to escape.
 
 
 ### Setting Envs - Temporary
 
-We can temporarily set them for user in our programs like this:
+Sometimes it is helpful to temporary setting ENVs for a program that is running or a short lived process. 
 
+We can temporarily set them for user in our programs with `export` before them in a KEY=VALUE format.
+
+>
 >$ export MY_NAME=Nathan
 >$ export FULL_NAME="Nathan Danielsen"
+>
+>$ echo $MY_NAME
+>$ echo $FULL_NAME
+>
 
-You can also add it before you run a script.
+You can also add an ENV before you run a script.
 
+>
 >$ FRIEND_NAME="Bonnie Wolfe" bash script/shoutout.sh
-
-
+>
 
 #### EXERCISES:
 
-1) Set a these ENVs in your terminal and then print them back.
+Set these ENVs in your terminal and then print them back.
 
-- HACK4LA=rocks
-- LOS_ANGELES="Has the best icecream!"
+HACK4LA with value of "rocks"
+LOS_ANGELES with value of "Has the best icecream!"
 
-2) Bonus: Modify the `shoutout.sh` to say something nice about someone who you admire using one or more ENVs.
+
+BONUS
+Modify the `shoutout.sh` to say something nice about someone who you admire using one or more ENVs.
 
 
 ### Setting Envs - Permament

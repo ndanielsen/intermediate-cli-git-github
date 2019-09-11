@@ -43,9 +43,8 @@ Protip: It is incredibly helpful to pick a meaningful name for the remote such a
 
 ### Exercise
 
-Add the main repository as a `remote` named `ndanielsen`
-
-You can find the repo information [here](https://github.com/ndanielsen/nicecream.github.io)
+- Add the main repository as a `remote` named `ndanielsen`
+- You can find the repo information [here](https://github.com/ndanielsen/nicecream.github.io)
 
 **Hint:** checkout the "clone or download" button to get the url
 
@@ -130,12 +129,9 @@ $ git commit
 
 ### Exercise
 
-Resolve the conflicts from the merge.
-Ask any questions that you have.
-
-Please fill out the post-workshop survey: [https://tinyurl.com/la-tech-workshop](https://tinyurl.com/la-tech-workshop)
-
-
+- Resolve the conflicts from the merge.
+- Ask any questions that you have.
+- Please fill out the post-workshop survey: [https://tinyurl.com/la-tech-workshop](https://tinyurl.com/la-tech-workshop)
 
 
 ### Resources

@@ -1,4 +1,4 @@
-# Intermediate to Commandline, Git and Github
+# Intermediate Commandline, Git and Github
 ## A Workshop to Keep You Going
 
 Author : Nathan Danielsen [@nate_somewhere](https://twitter.com/nate_somewhere)

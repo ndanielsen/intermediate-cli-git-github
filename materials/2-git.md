@@ -158,7 +158,6 @@ Here are a few other resources that might be helpful for diving deeper into git.
 
 
 **Protip:**
-
 Don't put your github credentials into git each time when pushing or pulling down work. Setup ssh.
 
 What is SSH? Why set it up for communicating with github?

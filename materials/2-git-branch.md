@@ -86,14 +86,14 @@ You can create and checkout a branch in one command.
 
 ```
 
- $ git checkout -b 1-add-tag-line`
+ $ git checkout -b 1-add-tag-line
 
 ```
 
 
 ### Pulling Down a Branch
 
-Now that we have an updated `master` branch. Let's get the same copy of it on our local computer.
+Now that we have an updated `master` branch on github. Let's get the pull down that work onto local computer.
 
 ```
  $ git checkout master
@@ -116,17 +116,37 @@ $ git merge origin/master
 We will learn more about this in the next section.
 
 
+### Meging Local Branches
+
+We have used github for merging work together, but it might be easier to merge it locally on our own machines.
+
+The workflow for this is quite simple. Say that we have a feature branch with some work named  `99-change-logo`, and we want to merge it into master.
+
+If we are on that feature branch, we can merge it like this:
+
+```
+git checkout 99-change-logo # feature branch
+git merge master
+
+
+git log
+```
+
+This will create a merge commit that ties both branches together.
+
+
 #### Exercise:
 
-Now we need to change the company name. 
+Now we need to change the company name.
+ 
 See this [github issue](https://github.com/ndanielsen/nicecream.github.io/issues/2)
 
-- Create a new local branch.
+- Create a new feature branch off the `master` branch.
 - Make the required changes according to the github issue.
 - Commit your changes
 - Merge that change into your local `master` branch.
 
-hint: `git merge {branch_name}`
+hint: what should the branch be named?
 
 
 ### Resources

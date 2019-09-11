@@ -25,6 +25,7 @@ The goal of this Los Angeles based fictional startup is to provide hip people of
 - Push it up to your forked repository
 - Make a PR into the main repository
 
+Lastly, clone this repository.
 
 ### Help and Hints
 

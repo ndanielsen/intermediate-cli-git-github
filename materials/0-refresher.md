@@ -1,6 +1,6 @@
 # Refresher
 
-Let's circle back on some of the basics of the commandline, git and github that are foundation in this workshop. These areas include:
+Let's start by reviewing some of the basics of the commandline, git and github that are foundational in this workshop. These areas include:
 
 - Forking and clone a github repository
 - Navigating via the commandline

@@ -12,11 +12,17 @@ At this point, you should have forked and cloned to your local machine the githu
 
 Type in your terminal: 
 
-`git remote`
+```
+$ git remote
+
+```
 
 Let's use the commandline to learn a little more about `git remote`
 
-`git remote --verbose`
+```
+$ git remote --verbose
+
+```
 
 
 The git remote command lets you create, view, and delete connections to other repositories. Remote connections are more like bookmarks rather than direct links into other repositories. Instead of providing real-time access to another repository, they serve as convenient names that can be used to reference a not-so-convenient URL.
@@ -25,9 +31,9 @@ The git remote command lets you create, view, and delete connections to other re
 Add and remove a `remote` like this:
 
 ```
-git remote add {nickname} {url}
+$ git remote add {nickname} {url}
 
-git remote remove {nickname}
+$ git remote remove {nickname}
 
 
 ```
@@ -61,9 +67,9 @@ We will be calling this the `develop` branch.
 Let's create a new development branch off of master.
 
 ```
-git checkout master
+$ git checkout master
 
-git branch -b develop
+$ git branch -b develop
 
 ```
 
@@ -73,11 +79,12 @@ Let's make sure that we're building off of the latest work. We need to add the `
 
 
 ```
-git remote add ndanielsen {url}
+$ git remote add ndanielsen {url}
 
-git fetch --all
+$ git fetch --all
 
-git merge ndanielsen/develop
+$ git merge ndanielsen/develop
+
 
 ```
 
@@ -107,7 +114,20 @@ ask your question to a TA.
 
 **Warning:** Git will allow you to merge conflicted code.
 
-'
+
+### Finishing the Merge
+
+After you have resolved the conflicts, you need to add the resolved files and finish the commit.
+
+```
+$ git add file_conflict.
+
+$ git commit
+
+```
+
+
+
 ### Exercise
 
 Resolve the conflicts from the merge.

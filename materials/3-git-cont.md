@@ -1,7 +1,9 @@
 
 # Git Intermediate - Remotes and Conflicts 
 
-Now that we are familiar with using branches, let's look at git remotes and handling merge conflicts.
+In the previous section, we looked at git branches and merging them together.
+
+Now we will look at git remotes and handling merge conflicts.
 
 At this point, you should have forked and cloned to your local machine the github respository [Nicecream Icecream - Los Angeles's Finest Hipster Icecream Startup](https://github.com/ndanielsen/nicecream.github.io)
 
@@ -33,12 +35,13 @@ git remote remove {nickname}
 Protip: It is incredibly helpful to pick a meaningful name for the remote such as the owner of the repository or a nickname that is easy to type.
 
 
-
 ### Exercise
 
-1) Can you figure out what is the command to "show remote url after name?"
-2) What is url for `origin` in your git repository?
+Add the main repository as a `remote` named `ndanielsen`
 
+You can find the repo information [here](https://github.com/ndanielsen/nicecream.github.io)
+
+**Hint:** checkout the "clone or download" button to get the url
 
 #### Team Development Flow Using Branches
 
@@ -50,7 +53,8 @@ Just like in real life when there are multiple people working on the same tasty 
 
 As the `master` represents what is in publically available in `production`, we will need to have another branch for building out our next release.
 
-We will be calling this `develop`.
+We will be calling this the `develop` branch.
+
 
 ### Create A Develop branch
 
@@ -65,9 +69,8 @@ git branch -b develop
 
 ### Merging in the existing develop branch
 
-Let's make sure that we're building off of the latest work. We need to add the `remote` repository of the main repository.
+Let's make sure that we're building off of the latest work. We need to add the `remote` repository of the main repository if we haven't already.
 
-Be sure to checkout the main repo to get the url.
 
 ```
 git remote add ndanielsen {url}
@@ -78,8 +81,9 @@ git merge ndanielsen/develop
 
 ```
 
-Oops... looks like we have a merge conflict. Not all conflict is bad, just that needs to be resolved meaninfully.
+Oops... looks like we have a merge conflict. We need to be resolve it.
 
+Checkout your `index.html` to see what it looks like in the html.
 
 
 ### Merge Conflicts
@@ -88,6 +92,7 @@ To resolve, delete the conflict markers <<<<<<<, =======, >>>>>>> and make the c
 
 
 Here's what a merge conflict typically looks like. Typically, there is overlapping work that `git` has decided a human needs to figure out what the right answer is.
+
 
 ```
 
@@ -100,10 +105,20 @@ ask your question to a TA.
 
 ```
 
+**Warning:** Git will allow you to merge conflicted code.
+
+'
 ### Exercise
 
 Resolve the conflicts from the merge.
 Ask any questions that you have.
 
-Please fill out the post-workshop survey: https://tinyurl.com/la-tech-workshop
+Please fill out the post-workshop survey: [https://tinyurl.com/la-tech-workshop](https://tinyurl.com/la-tech-workshop)
 
+
+
+
+### Resources
+
+- [Resolving a merge conflict using the command line](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line)
+- [git syncing](https://www.atlassian.com/git/tutorials/syncing)

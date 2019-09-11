@@ -146,7 +146,7 @@ See this [github issue](https://github.com/ndanielsen/nicecream.github.io/issues
 - Commit your changes
 - Merge that change into your local `master` branch.
 
-hint: what should the branch be named?
+**Hint**: what should the branch be named?
 
 
 ### Resources

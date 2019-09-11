@@ -119,7 +119,7 @@ ask your question to a TA.
 After you have resolved the conflicts, you need to add the resolved files and finish the commit.
 
 ```
-$ git add file_conflict.
+$ git add file_conflict.txt
 
 $ git commit
 

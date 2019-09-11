@@ -101,9 +101,7 @@ $ cat ~/.bash_profile
 ```
 
 
-We're not going to configure anything in the `bash_profile` today. It is risky to do in a workshop setting.
-
-Likely, editing it will require the use of `sudo`. 
+We're not going to configure anything in the `bash_profile` today. It is risky to do in a workshop setting. Editing it will require the use of `sudo`. 
 
 Check out [`4-Command-Line-Advanced.md`](https://github.com/ndanielsen/intro-cli-git-github/blob/master/materials/4-Command-Line-Advanced.md) for details on the use of `sudo`.
 

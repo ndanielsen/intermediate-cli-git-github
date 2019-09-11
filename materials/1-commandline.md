@@ -84,10 +84,7 @@ Set these ENVs in your terminal and then print them back.
 
 
 #### BONUS EXERCISE:
-
-Modify the `shoutout.sh` to say something nice about someone who you admire using one or more ENVs.
-
-Can you run it?
+- Modify the `shoutout.sh` to say something nice about someone who you admire using one or more ENVs.
 
 
 ### Setting Envs - Permament

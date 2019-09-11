@@ -30,7 +30,7 @@ This is the user's home directory. Variables have a `$` in front of them.
 
 ```
 
-$ echo env
+$ env
 
 ```
 
@@ -39,7 +39,7 @@ These are all of the ENVs for your user. It is a lot of information. We can scro
 
 ```
 
-$ echo env | less
+$ env | less
 
 ```
 
@@ -80,7 +80,7 @@ Set these ENVs in your terminal and then print them back.
 1) `HACK4LA` with value of "rocks"
 
 
-2) `LOS_ANGELES` with value of "Has the best icecream!"
+2) `LOS_ANGELES` with value of "Has the best icecream"
 
 
 #### BONUS EXERCISE:

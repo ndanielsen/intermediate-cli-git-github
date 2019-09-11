@@ -116,7 +116,7 @@ $ git merge origin/master
 We will learn more about this in the next section.
 
 
-### Meging Local Branches
+### Merging Local Branches
 
 We have used github for merging work together, but it might be easier to merge it locally on our own machines.
 
@@ -125,11 +125,11 @@ The workflow for this is quite simple. Say that we have a feature branch with so
 If we are on that feature branch, we can merge it like this:
 
 ```
-git checkout 99-change-logo # feature branch
-git merge master
+$ git checkout 99-change-logo # feature branch
+$ git merge master
 
 
-git log
+$ git log
 ```
 
 This will create a merge commit that ties both branches together.

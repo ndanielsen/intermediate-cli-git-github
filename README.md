@@ -6,7 +6,7 @@ Author : Nathan Danielsen [@nate_somewhere](https://twitter.com/nate_somewhere)
 
 ## Purpose
 
-After learning the basics about command-line, git and GitHub are you ready for more? In this [follow up workshop](https://github.com/ndanielsen/intro-cli-git-github), we’re going to dive deeper into the next level on the command line, git and GitHub to give you more understanding and power over your development environment.
+After learning the basics about command-line, git and GitHub are you ready for more? In this follow up workshop, we’re going to dive deeper into the next level on the command line, git and GitHub to give you more understanding and power over your development environment.
 
 In this workshop, we will cover:
 - Helpful common commandline tricks and tips
@@ -23,9 +23,9 @@ As for github, we will learn about team workflows such as trunk based and featur
 
 ## Background
 
-It is recommended that workshop attends have some familarity with the commandline and git before attending. 
+It is recommended that workshop attendees have some familarity with the commandline and git before attending. 
 
-Fully completeling the exercises in the [`Introduction to commandline, git and github`](https://github.com/ndanielsen/intro-cli-git-github) should be sufficient preparation.
+Fully completing the exercises in the [`Introduction to commandline, git and github`](https://github.com/ndanielsen/intro-cli-git-github) should be sufficient preparation.
 
 
 

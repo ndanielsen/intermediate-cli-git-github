@@ -1,4 +1,4 @@
-# Refresher
+# Getting Started
 
 Let's start by reviewing some of the basics of the commandline, git and github that are foundational in this workshop. These areas include:
 

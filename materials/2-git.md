@@ -157,7 +157,7 @@ Here are a few other resources that might be helpful for diving deeper into git.
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
 
 
-### Protip
+**Protip:**
 
 Don't put your github credentials into git each time when pushing or pulling down work. Setup ssh.
 

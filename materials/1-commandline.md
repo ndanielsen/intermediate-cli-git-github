@@ -11,7 +11,7 @@ Environment variables (ENVs) contain information about your login session, store
 
 ENVs are helpful because they allow you to separate code/ logic from configuration. 
 
-ProTip - Checkout this reading from the Twelve Factor about on [configuration](https://12factor.net/config).
+**ProTip:** Checkout this reading from the Twelve Factor about on [configuration](https://12factor.net/config).
 
 
 ### Accessing Current ENVs
